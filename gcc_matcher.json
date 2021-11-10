@@ -6,7 +6,7 @@
                 {
                     "regexp": "^(../)(.*):(\\d+):(\\d+):\\s+(?:fatal\\s+)?(warning|error):\\s+(.*)$",
                     "file": 2,
-                    "fromPath": 2,
+                    "fromPath": "iiot_firmware/",
                     "line": 3,
                     "column": 4,
                     "severity": 5,

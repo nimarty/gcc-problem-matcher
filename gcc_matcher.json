@@ -2,11 +2,11 @@
     "problemMatcher": [
         {
             "owner": "gcc-problem-matcher",
+            "fromPath": "iiot_firmware/",
             "pattern": [
                 {
                     "regexp": "^(../)(.*):(\\d+):(\\d+):\\s+(?:fatal\\s+)?(warning|error):\\s+(.*)$",
                     "file": 2,
-                    "fromPath": "iiot_firmware/",
                     "line": 3,
                     "column": 4,
                     "severity": 5,

@@ -6,9 +6,10 @@
                 {
                     "regexp": "^(../)(.*):(\\d+):(\\d+):\\s+(?:fatal\\s+)?(warning|error):\\s+(.*)$",
                     "file": 2,
+                    "fromPath": 2,
                     "line": 3,
                     "column": 4,
-                    "code": 5,
+                    "severity": 5,
                     "message": 6
                 }
             ]

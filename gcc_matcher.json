@@ -4,11 +4,11 @@
             "owner": "gcc-problem-matcher",
             "pattern": [
                 {
-                    "regexp": "^(../)(.*):(\d+):(\d+):\s+(?:fatal\s+)?(warning|error):\s+(.*)$",
+                    "regexp": "^(../)(.*):(\\d+):(\\d+):\\s+(?:fatal\\s+)?(warning|error):\\s+(.*)$",
                     "file": 2,
                     "line": 3,
                     "column": 4,
-                    "severity": 5,
+                    "code": 5,
                     "message": 6
                 }
             ]
